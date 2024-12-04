@@ -1,4 +1,4 @@
-# SpotBot
+# Music-Artist-Chatbot
 
 This project is a Python-based chatbot that uses the Spotify Web API to retrieve and display data about music artists. The bot can answer questions related to an artist's profile, albums, top tracks, and more. It features a simple and interactive graphical user interface (GUI) built using the Tkinter library. It's inspired by a previous project of mine "SuperBot"
 
