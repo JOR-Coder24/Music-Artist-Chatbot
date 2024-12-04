@@ -13,16 +13,12 @@ This project is a Python-based chatbot that uses the Spotify Web API to retrieve
 ### Prerequisites
 
 1. Python 3.x installed on your machine.
-2. Required Python libraries:
+2. Required Python libraries(You can install them using pip):
    - `requests`
    - `spotipy`
    - `tkinter`
    
-You can install the required libraries using pip:
-
 Need a "Spotify for Developers" account and your own Client ID and Client Secret
-
-pip install requests spotipy
 
 
 ## Getting Started
