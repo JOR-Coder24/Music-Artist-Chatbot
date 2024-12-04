@@ -38,5 +38,5 @@ Example Questions
 Exiting the Chatbot-To exit the chatbot, simply type exit in the chat window.
 
 Limitations:
-- The bot fetches a limited number of albums (5) and tracks (5) per artist.
+- The bot fetches a limited number of top tracks (5) per artist.
 - It works only for the data available on Spotify.
