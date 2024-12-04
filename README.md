@@ -20,25 +20,23 @@ This project is a Python-based chatbot that uses the Spotify Web API to retrieve
    
 You can install the required libraries using pip:
 
-```bash
+
 pip install requests spotipy
-Getting Started
+
+
+## Getting Started
 Clone or download the repository to your local machine.
 Replace the client_id and client_secret in the code with your own credentials from the Spotify Developer Dashboard.
-Run the Python script:
-bash
-Copy code
-python music_artist_chatbot.py
-This will open the chatbot GUI where you can interact with the bot and ask questions related to any artist.
+
 
 Example Questions
 "What is Taylor Swift's URL?"
 "What are Drake's top tracks?"
 "Tell me about Ed Sheeran's albums."
 "What is the follower count for Ariana Grande?"
-Exiting the Chatbot
-To exit the chatbot, simply type exit in the chat window.
 
-Limitations
-The bot fetches a limited number of albums (5) and tracks (5) per artist.
-It works only for the data available on Spotify.
+Exiting the Chatbot-To exit the chatbot, simply type exit in the chat window.
+
+Limitations:
+-The bot fetches a limited number of albums (5) and tracks (5) per artist.
+-It works only for the data available on Spotify.
