@@ -1,21 +1,26 @@
-Music Artist Chatbot
+# Music Artist Chatbot
+
 This project is a Python-based chatbot that uses the Spotify Web API to retrieve and display data about music artists. The bot can answer questions related to an artist's profile, albums, top tracks, and more. It features a simple and interactive graphical user interface (GUI) built using the Tkinter library.
 
-Features
-Search Music Artists: Ask the bot about an artist’s profile, top tracks, albums, genres, follower count, and Spotify ID.
-Interactive GUI: The chatbot is embedded in a GUI using Tkinter, which displays both user and bot messages with different colors for clarity.
-Spotify Data: The chatbot pulls data from Spotify through the Spotipy library, using artist search and API endpoints to fetch information.
-Setup Instructions
-Prerequisites
-Python 3.x installed on your machine.
-Required Python libraries:
-requests
-spotipy
-tkinter
+## Features
+
+- **Search Music Artists**: Ask the bot about an artist’s profile, top tracks, albums, genres, follower count, and Spotify ID.
+- **Interactive GUI**: The chatbot is embedded in a GUI using Tkinter, which displays both user and bot messages with different colors for clarity.
+- **Spotify Data**: The chatbot pulls data from Spotify through the Spotipy library, using artist search and API endpoints to fetch information.
+
+## Setup Instructions
+
+### Prerequisites
+
+1. Python 3.x installed on your machine.
+2. Required Python libraries:
+   - `requests`
+   - `spotipy`
+   - `tkinter`
+   
 You can install the required libraries using pip:
 
-bash
-Copy code
+```bash
 pip install requests spotipy
 Getting Started
 Clone or download the repository to your local machine.
