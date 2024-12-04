@@ -103,8 +103,8 @@ def chatbot_gui():
     chat_area.grid(column=0, row=0, columnspan=2, sticky='nsew')  # Make the chat area expand
 
     # Tag configuration for user and bot text
-    chat_area.tag_configure('user', foreground='red')  # User text in red
-    chat_area.tag_configure('bot', foreground='blue')   # Bot text in blue
+    chat_area.tag_configure('user', foreground='green')  # User text in red
+    chat_area.tag_configure('bot', foreground='black')   # Bot text in blue
 
     # Entry widget for user input
     entry = tk.Entry(window, width=50)
