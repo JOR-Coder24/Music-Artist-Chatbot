@@ -29,8 +29,7 @@ Replace the client_id and client_secret in the code with your own credentials fr
 Example Questions
 "What is Taylor Swift's URL?"
 "What are Drake's top tracks?"
-"Tell me about Ed Sheeran's albums."
-"What is the follower count for Ariana Grande?"
+
 
 Exiting the Chatbot-To exit the chatbot, simply type exit in the chat window.
 
