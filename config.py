@@ -1,3 +1,3 @@
-client_id = ''
-client_secret = ''
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 #fill in with your spotify ID
