@@ -20,6 +20,7 @@ This project is a Python-based chatbot that uses the Spotify Web API to retrieve
    
 You can install the required libraries using pip:
 
+Need a "Spotify for Developers" account and your own Client ID and Client Secret
 
 pip install requests spotipy
 
