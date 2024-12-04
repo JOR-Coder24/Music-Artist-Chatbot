@@ -31,7 +31,7 @@ def extract_artist_data(artist):
     return {"error": "Artist not found"}
 
 def get_artist_albums(artist_id):
-    albums = sp.artist_albums(artist_id, album_type='album', limit=5)
+    albums = sp.artist_albums(artist_id, album_type='album',)#can add a limit if you want(i.e. "limit = 5")
     album_names = [album['name'] for album in albums['items']]
     return ', '.join(album_names)
 
