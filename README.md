@@ -2,6 +2,8 @@
 
 This project is a Python-based chatbot that uses the Spotify Web API to retrieve and display data about music artists. The bot can answer questions related to an artist's profile, albums, top tracks, and more. It features a simple and interactive graphical user interface (GUI) built using the Tkinter library. It's inspired by a previous project of mine "SuperBot"
 
+"Music-Artist-Chatbot-With-Albums.py" is an additional program which does the same as the orginal but also gives data about an album(Name, Type, Total Tracks(no. tracks), Available Markets, Release Date, Artists, Label). NOTE-When running, must specify that it is an album in the question.
+
 ## Features
 
 - **Search Music Artists**: Ask the bot about an artist’s profile, top tracks, albums, genres, follower count, and Spotify ID.
@@ -29,7 +31,7 @@ Replace the client_id and client_secret in the code with your own credentials fr
 Example Questions
 "What is Taylor Swift's URL?"
 "What are Drake's top tracks?"
-
+"What are album World War Joy's available markets?"  
 
 Exiting the Chatbot-To exit the chatbot, simply type exit in the chat window.
 
