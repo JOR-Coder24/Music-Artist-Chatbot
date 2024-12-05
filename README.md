@@ -20,7 +20,7 @@ This project is a Python-based chatbot that uses the Spotify Web API to retrieve
    - `spotipy`
    - `tkinter`
    
-Need a "Spotify for Developers" account and your own Client ID and Client Secret
+Need a "Spotify for Developers" account and your own Client ID and Client Secret numbers
 
 
 ## Getting Started
