@@ -6,8 +6,8 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 # Set up Spotify client with credentials
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='f2972bf2318c4586a77600d836fd4d00',
-                                                            client_secret='a0228a18e2474624b869d28a31fe5d06'))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=config.CLIENT_ID,
+                                                            client_secret=config.CLIENT_SECRET))
 
 # Functions to fetch artist and album data
 def get_artist_data(artist_name):
